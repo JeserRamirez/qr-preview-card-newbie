@@ -22,9 +22,12 @@
             "tsConfig": "tsconfig.app.json",
             "assets": [
               {
-                "glob": "**/*",
-                "input": "public"
-              }
+                "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              },
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
               "src/styles.css"
@@ -92,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "e82855b3-40ab-4090-bcf2-f12762304acd"
   }
 }

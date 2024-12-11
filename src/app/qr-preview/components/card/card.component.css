@@ -1,0 +1,31 @@
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../../../assets/fonts/Outfit-VariableFont_wght.ttf")
+    format("woff2-variations");
+    font-style: normal;
+}
+
+:host {
+  --white: hsl(0, 0%, 100%);
+
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+}
+
+.card {
+  background-color: var(--white);
+}
+
+.title {
+  font-family: "Outfit", sans-serif;
+  color: var(--slate-900);
+}
+
+.paragraph {
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  color: var(--slate-500);
+}
+
